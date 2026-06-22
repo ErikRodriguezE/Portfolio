@@ -1,0 +1,6 @@
+body {
+  background: linear-gradient(180deg, #050a1f 0%, #0e1948 100%);
+  background-attachment: fixed; /* Evita que el degradado se corte si haces scroll hacia abajo */
+  min-height: 100vh;            /* Asegura que cubra toda la pantalla */
+  color: #ffffff;               /* Texto blanco automático para que resalte */
+}

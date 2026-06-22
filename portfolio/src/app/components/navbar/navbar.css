@@ -1,0 +1,6 @@
+.navbar-nav .nav-link.active {
+    border-bottom: 3px solid white; /* Línea negra de 3px, puedes cambiar el color aquí */
+    padding-bottom: 2px; /* Ajusta qué tan pegada está la línea al texto */
+    font-family: 'Inter', sans-serif ;
+    font-weight: 800 ;
+  }
