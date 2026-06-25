@@ -3,5 +3,13 @@
     "HOME": "HOME",
     "PORTFOLIO": "PORTFOLIO",
     "CERTIICATES": "CERTIICATES"
+  },
+
+  "HOME":{
+    "NAME": "Hi, my name is Erik Santiago Rodriguez Espitia",
+    "SOFTWARE" : "Software",
+    "ENG":"Engineer",
+    "PHRASE" : "“My brain is the key that defines my free mind”",
+    "DESCRIPTION": "Junior Developer and fourth-semester Software Engineering student at University Compensar, with a strong foundation in programming and computational logic. Passionate about building efficient technological solutions and continuous learning. I stand out for my analytical thinking, problem-solving abilities, teamwork skills, and adaptability in dynamic environments."
   }
 }
