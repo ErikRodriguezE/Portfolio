@@ -6,14 +6,80 @@
         </div>
 </div>
 
-<div class=" p-5 innerGlow mx-5 flex-row border border-white rounded-5">
+<div class="mb-3 z-3 position-relative pe-auto p-5 innerGlow mx-5 flex-row border border-white rounded-5 bg-dark bg-opacity-50">
     <div class="d-flex flex-row align-items-center">
         <img class="rounded-circle imgProfile me-5" src="media/perfil.png" alt="">
         <p>{{'HOME.DESCRIPTION' | translate}}</p>
     </div>
     <div class="ms-5 me-4 d-flex flex-column align-items-start gap-3">
-        <img class="imgReferences border rounded-circle" src="media/github.png" alt="">
-        <img class="imgReferences border rounded-circle ms-5" src="media/linkds.png" alt="">
-        <img class="imgReferences border rounded-circle" src="media/mail.jpg" alt="">
+        <img class="imgReferences border rounded-circle " src="media/github.png" alt=""
+        style="animation-duration: 4s; animation-delay: 0s;">
+
+        <img class="imgReferences border rounded-circle ms-5" src="media/linkds.png" alt=""
+        style="animation-duration: 3s; animation-delay: 0.7s;">
+
+        <img class="imgReferences border rounded-circle" src="media/mail.jpg" alt=""
+        style="animation-duration: 5s; animation-delay: 1.2s;">
+    </div>
+</div>
+
+<div class="mb-3 z-3 position-relative pe-auto p-5 skillsBars mx-5  border border-white rounded-5 bg-dark bg-opacity-50">
+    <h5>{{ 'HOME.SKILLS' | translate }}</h5>
+    
+    <div class="row g-4">
+        <div class="col-12 col-md-4">
+            <h6 class="mb-2 fw-semibold">Java</h6>
+            <div class="progress" role="progressbar" >
+                <div class="progress-bar progress-bar progress-bar-animated gradiente" 
+                [style.width.%]="animar ? javaSkill : 0">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <h6 class="mb-2 fw-semibold">Phyton</h6>
+            <div class="progress" role="progressbar">
+                <div class="progress-bar progress-bar progress-bar-animated gradiente"
+                [style.width.%]="animar ? pythonSkill : 0">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <h6 class="mb-2 fw-semibold">JavaScript</h6>
+            <div class="progress" role="progressbar">
+                <div class="progress-bar progress-bar progress-bar-animated gradiente"
+                [style.width.%]="animar ? jsSkill : 0">
+                </div>
+            </div>
+        </div>
+
+    <div class="row g-4">
+        <div class="col-12 col-md-4">
+            <h6 class="mb-2 fw-semibold">MySQL</h6>
+            <div class="progress" role="progressbar">
+                <div class="progress-bar progress-bar progress-bar-animated gradiente2"
+                [style.width.%]="animar ? SQLSkil : 0">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <h6 class="mb-2 fw-semibold">Angular</h6>
+            <div class="progress" role="progressbar">
+                <div class="progress-bar progress-bar progress-bar-animated gradiente2"
+                [style.width.%]="animar ? angularSkill : 0">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <h6 class="mb-2 fw-semibold">Express</h6>
+            <div class="progress" role="progressbar">
+                <div class="progress-bar progress-bar progress-bar-animated gradiente2"
+                [style.width.%]="animar ? expressSkill : 0">
+                </div>
+            </div>
+        </div>
     </div>
 </div>

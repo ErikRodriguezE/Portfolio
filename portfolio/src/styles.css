@@ -3,4 +3,5 @@ body {
   background-attachment: fixed; /* Evita que el degradado se corte si haces scroll hacia abajo */
   min-height: 100vh;            /* Asegura que cubra toda la pantalla */
   color: #ffffff;               /* Texto blanco automático para que resalte */
+  font-family: 'Inter', sans-serif;
 }
