@@ -1,6 +1,34 @@
-.navbar-nav .nav-link.active {
-    border-bottom: 3px solid white; /* Línea negra de 3px, puedes cambiar el color aquí */
-    padding-bottom: 2px; /* Ajusta qué tan pegada está la línea al texto */
-    font-family: 'Inter', sans-serif ;
-    font-weight: 800 ;
-  }
+/* --- BOTÓN HAMBURGUESA BLANCO --- */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+/* --- ESTILO GENERAL PARA LOS ENLACES DEL MENÚ --- */
+.navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    color: white !important;
+    position: relative; /* Esencial para posicionar la línea */
+    padding-bottom: 6px !important; /* Espacio para que no se pegue la línea al texto */
+    width: max-content; /* Evita que el enlace se estire al 100% en móvil */
+}
+
+/* --- LA LÍNEA DEBAJO (Para móvil y escritorio por igual) --- */
+.navbar-nav .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;          /* Ocupa el 100% del ancho del texto */
+    height: 3px;          /* Grosor de la línea */
+    background-color: white; /* Color de la línea */
+}
+
+/* --- AJUSTE DE ESPACIADO EN MÓVIL --- */
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        margin-top: 15px; /* Separa los elementos verticalmente en el menú móvil */
+    }
+}
