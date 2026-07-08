@@ -1,8 +1,5 @@
 .innerGlow {
   box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.6);
-  display: flex ;
-  flex-direction: row ;
-  align-items: center;
 }
 .skillsBars {
   box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.6);

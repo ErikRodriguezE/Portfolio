@@ -1,4 +1,4 @@
-<div class="jumbotron p-3 p-md-5 text-white rounded ">
+<div class=" p-3 p-md-5 text-white rounded ">
         <div class="col-md-6 px-0 offset-md-1">
             <p class="lead my-3">{{ 'HOME.NAME' | translate }}</p>
             <h1 class="display-4 font-italic">{{ 'HOME.SOFTWARE' | translate }} <br> {{ 'HOME.ENG' | translate }} </h1>
@@ -6,24 +6,40 @@
         </div>
 </div>
 
-<div class="mb-3 z-3 position-relative pe-auto p-5 innerGlow mx-5 flex-row border border-white rounded-5 bg-dark bg-opacity-50">
-    <div class="d-flex flex-row align-items-center">
-        <img class="rounded-circle imgProfile me-5" src="media/perfil.png" alt="">
-        <p>{{'HOME.DESCRIPTION' | translate}}</p>
-    </div>
-    <div class="ms-5 me-4 d-flex flex-column align-items-start gap-3">
-        <img class="imgReferences border rounded-circle " src="media/github.png" alt=""
-        style="animation-duration: 4s; animation-delay: 0s;">
+<div class="container-fluid px-3 mb-3 z-3 position-relative pe-auto p-4 p-md-5 innerGlow border border-white rounded-5 bg-dark bg-opacity-50" style="max-width: 94%; margin-left: auto; margin-right: auto;">
+    
+    <div class="row">
+        <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+            <img class="rounded-circle imgProfile me-5" src="media/perfil.png" alt="">
+        </div>
 
-        <img class="imgReferences border rounded-circle ms-5" src="media/linkds.png" alt=""
-        style="animation-duration: 3s; animation-delay: 0.7s;">
+        <div class="col-12 col-md-8 align-items-center d-flex">
+            <p>{{'HOME.DESCRIPTION' | translate}}</p>
+        </div>
 
-        <img class="imgReferences border rounded-circle" src="media/mail.jpg" alt=""
-        style="animation-duration: 5s; animation-delay: 1.2s;">
+        <div class="col-12 col-lg-2">
+            <div class="row ">
+                <div class="ms-5 me-4 d-flex flex-column align-items-start gap-3">
+                    <img class="imgReferences border rounded-circle " src="media/github.png" alt=""
+                    style="animation-duration: 4s; animation-delay: 0s;">
+                </div>
+
+                <div class="ms-5 me-4 d-flex flex-column align-items-start gap-3">
+                    <img class="imgReferences border rounded-circle ms-5" src="media/linkds.png" alt=""
+                    style="animation-duration: 3s; animation-delay: 0.7s;">
+                </div>
+
+                <div class="ms-5 me-4 d-flex flex-column align-items-start gap-3">
+                    <img class="imgReferences border rounded-circle" src="media/mail.jpg" alt=""
+                    style="animation-duration: 5s; animation-delay: 1.2s;">
+                </div>
+            </div>
+        </div>
+        
     </div>
 </div>
 
-<div class="mb-3 z-3 position-relative pe-auto p-5 skillsBars mx-5  border border-white rounded-5 bg-dark bg-opacity-50">
+<div class="container-fluid px-3 mb-3 z-3 position-relative pe-auto p-4 p-md-5 innerGlow border border-white rounded-5 bg-dark bg-opacity-50" style="max-width: 94%; margin-left: auto; margin-right: auto;">
     <h5>{{ 'HOME.SKILLS' | translate }}</h5>
     
     <div class="row g-4">
@@ -54,7 +70,6 @@
             </div>
         </div>
 
-    <div class="row g-4">
         <div class="col-12 col-md-4">
             <h6 class="mb-2 fw-semibold">MySQL</h6>
             <div class="progress" role="progressbar">
@@ -81,5 +96,4 @@
                 </div>
             </div>
         </div>
-    </div>
 </div>
