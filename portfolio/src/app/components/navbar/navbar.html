@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
   <div class="container-fluid">
     <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -10,6 +10,15 @@
         <a class="py-2 nav-item nav-link text-white" routerLinkActive="active" routerLink="/portfolio">{{ 'NAVBAR.PORTFOLIO' | translate }}</a>
         <a class="py-2 nav-item nav-link text-white" routerLinkActive="active" routerLink="/certificates">{{ 'NAVBAR.CERTIICATES' | translate }}</a>
       </div>
+    </div>
+
+    <div style="position: absolute; right: 24px; top: 50%; transform: translateY(-50%); z-index: 10;">
+      <input type="checkbox" id="chk" class="checkbox" (change)="onLangToggle($event)">
+      <label for="chk" class="label">
+        <i class="flag-emoji ">🇺🇸</i>
+        <i class="flag-emoji" style="padding: 1px;">🇪🇸</i>
+        <div class="ball"></div>
+      </label>
     </div>
   </div>
 </nav>

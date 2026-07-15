@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+
+.flag-emoji {
+  font-family: 'Noto Color Emoji', sans-serif;
+  font-size: 12px;
+}
+
 body {
   background: linear-gradient(180deg, #050a1f 0%, #0e1948 100%);
   background-attachment: fixed; /* Evita que el degradado se corte si haces scroll hacia abajo */
@@ -5,3 +12,4 @@ body {
   color: #ffffff;               /* Texto blanco automático para que resalte */
   font-family: 'Inter', sans-serif;
 }
+
