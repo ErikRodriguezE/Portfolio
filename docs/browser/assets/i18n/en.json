@@ -1,0 +1,27 @@
+{
+  "NAVBAR": {
+    "HOME": "HOME",
+    "PORTFOLIO": "PORTFOLIO",
+    "CERTIICATES": "CERTIFICATES"
+  },
+
+  "HOME":{
+    "NAME": "Hi, my name is Erik Santiago Rodriguez Espitia",
+    "SOFTWARE" : "Software",
+    "ENG":"Engineer",
+    "PHRASE" : "“My brain is the key that defines my free mind”",
+    "SKILLS" : "SKILLS",
+    "DESCRIPTION": "Junior Developer and fourth-semester Software Engineering student at University Compensar, with a strong foundation in programming and computational logic. Passionate about building efficient technological solutions and continuous learning. I stand out for my analytical thinking, problem-solving abilities, teamwork skills, and adaptability in dynamic environments."
+  },
+
+  "PORTFOLIO":{
+    "TITLE-1": "Atlas Assistant (2025)",
+    "DESCRIPTION-1":"Atlas Assistant is a university and school inventory system that manages the items it would have through a database. Users can rent the items or rooms.",
+    "TITLE-2": "E-commerce (2025)",
+    "DESCRIPTION-2":"A project simulating an e-commerce site, with a login system, filters, and product purchasing.",
+    "TITLE-3": "DianaVet & Pet Home (2026)",
+    "DESCRIPTION-3": "A veterinary clinic website designed to establish an online presence and attract clients. The site clearly presents all medical services and features a direct WhatsApp integration to streamline communication and appointment booking.",
+    "TITLE-4": "Atlas Social (2026)",
+    "DESCRIPTION-4":"A university social network designed to connect students through an interactive platform. The website allows users to participate in discussion forums, organize community activities like tournaments or outings, and play integrated minigames to foster campus engagement."
+  }
+}
